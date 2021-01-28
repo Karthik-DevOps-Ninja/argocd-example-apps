@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Karthik-DevOps-Ninja/argocd-example-apps.git
     targetRevision: HEAD
-    path: argocd/guestbook
+    path: guestbook
     directory:
       recurse: true
   destination:
