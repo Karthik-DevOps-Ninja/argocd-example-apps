@@ -25,7 +25,7 @@ spec:
         app: guestbook-ui-rollouts
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: guestbook-ui-rollouts
         ports:
         - containerPort: 80
